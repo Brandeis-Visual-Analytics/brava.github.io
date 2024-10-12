@@ -81,7 +81,7 @@
 			<div class="md:hidden w-9">
 				<img
 					src={`${base}/images/logo/brandeis.png`}
-					alt="IDL logo"
+					alt="Brandeis logo"
 				/>
 			</div>
 		</header>
