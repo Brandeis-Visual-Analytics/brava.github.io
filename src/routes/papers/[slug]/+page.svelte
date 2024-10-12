@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Brandeis Visual Analytics Lab | Papers</title>
+	<title>Brandeis Visual Analytics Lab | Papers And Posters</title>
 	<!-- add citation metadata -->
 	<meta property="og:title" content={paper.title} />
 	<meta property="og:type" content="article" />
