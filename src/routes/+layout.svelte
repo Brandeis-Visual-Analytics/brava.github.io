@@ -15,20 +15,12 @@
 			href: `${base}/people`
 		},
 		{
-			name: 'papers',
+			name: 'projects',
 			href: `${base}/papers`
 		},
 		{
-			name: 'video',
-			href: 'https://vimeo.com/channels/uwdata'
-		},
-		{
-			name: 'blog',
-			href: 'https://medium.com/@uwdata'
-		},
-		{
 			name: 'code',
-			href: 'https://github.com/uwdata'
+			href: 'https://github.com/Brandeis-Visual-Analytics'
 		}
 	];
 
@@ -41,7 +33,7 @@
 	]
 
 	$: pageName =
-		$page.url.pathname.split('/').filter((x) => x && x !== 'uwdata.github.io')[0] ||
+		$page.url.pathname.split('/').filter((x) => x && x !== 'Brandeis-Visual-Analytics.github.io')[0] ||
 		'home';
 	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
 </script>
@@ -65,31 +57,16 @@
 					>{section.name}</a
 				>
 			{/each}
-			<a class="social w-4 rounded" title="@uwdata on Twitter/X" href="http://twitter.com/uwdata">
-				<svg viewBox="0 0 24 24" aria-hidden="true">
-					<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-				</svg>
-			</a>
 		</nav>
 		<div class="mb-4">
 			<a
-				class="block w-11"
-				href="http://dub.washington.edu/"
-				title="dub: Design, Use, Build - Human-Computer Interaction &amp; Design"
-				><img
-					class="rounded halo"
-					src={`${base}/images/logo/dub.png`}
-					alt="dub logo"
-				/></a
-			>
-			<a
 				class="block w-11 mt-3"
-				href="http://cs.washington.edu/"
-				title="UW Computer Science &amp; Engineering"
+				href="https://www.brandeis.edu/computer-science/"
+				title="Michtom School of Computer Science"
 				><img
 					class="rounded halo"
-					src={`${base}/images/logo/cse.png`}
-					alt="uw computer science and engineering logo"
+					src={`${base}/images/logo/brandeis.png`}
+					alt="Brandeis University logo"
 				/></a
 			>
 		</div>
@@ -98,12 +75,12 @@
 	<div class="flex flex-col w-full md:pl-24">
 		<header class="flex flex-row justify-between mb-3">
 			<div class="text-2xl md:text-3xl mt-1">
-				<span class="font-medium text-uw">UW</span> Interactive Data Lab
+				<span class="font-medium text-uw">Brandeis</span> Visual Analytics Lab
 				<span class="hidden md:inline ml-3 uppercase text-xl tracking-wider text-gray-500">{subtitle}</span>
 			</div>
 			<div class="md:hidden w-9">
 				<img
-					src={`${base}/images/logo/idl-300.png`}
+					src={`${base}/images/logo/brandeis.png`}
 					alt="IDL logo"
 				/>
 			</div>

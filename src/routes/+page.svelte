@@ -32,9 +32,9 @@
 
 <div class="mission md:text-xl md:-mt-1 mb-4">
 	<a href={`${base}/about`}>
-		<span class="lead">our mission</span> is to enhance people's ability to
-		<strong>understand and communicate data</strong>
-		through the design of new <strong>interactive systems</strong> for data visualization and analysis.
+		<span class="lead">our mission</span> is to advance human 
+		<strong>understanding and interaction</strong>
+		with complex data through innovative visual analytics systems and human-centered design.
 	</a>
 </div>
 

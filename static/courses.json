@@ -1,3 +1,22 @@
 [
-
+    {
+		"name": "COSI 125A — Human-Computer Interaction",
+		"level": "Undergraduate",
+		"link": "https://www.brandeis.edu/registrar/schedule/course?acad_year=2010&crse_id=001655"
+	},
+    {
+		"name": "COSI 116A - Information Visualization",
+		"level": "Undergraduate",
+		"link": "https://scholarworks.brandeis.edu/esploro/activity/teaching/COSI-116A---Information-Visualization/24354935380001921"
+	},
+    {
+		"name": "COSI 21A Data Structures and the Fundamentals of Computing",
+		"level": "Undergraduate",
+		"link": "https://scholarworks.brandeis.edu/esploro/activity/teaching/COSI-21A-2-Data-Structures-and-the/24354936210001921?institution=01BRAND_INST"
+	},
+    {
+		"name": "COSI 12B: Advanced Programming Techniques in Java",
+		"level": "Undergraduate",
+		"link": "https://scholarworks.brandeis.edu/esploro/activity/teaching/COSI-12B-1-Advanced-Programming-Techniques-in/24354936520001921?institution=01BRAND_INST"
+	}
 ]

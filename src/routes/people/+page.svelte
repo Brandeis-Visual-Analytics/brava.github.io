@@ -24,8 +24,8 @@
 		);
 
 	const members = [
-		...groupsByStatus['faculty'],
-		...groupsByStatus['member']
+		...(groupsByStatus['faculty'] ?? []),
+		...(groupsByStatus['member'] ?? [])
 	];
 </script>
 
@@ -62,8 +62,12 @@
 	{/each}
 </div>
 
-<div class="lead mt-6">alumni</div>
-<PeopleList people={groupsByStatus['alumni']} />
+{#if groupsByStatus['alumni'] && groupsByStatus['alumni'].length > 0}
+	<div class="lead mt-6">alumni</div>
+	<PeopleList people={groupsByStatus['alumni']} />
+{/if}
 
-<div class="lead mt-6">collaborators</div>
-<PeopleList people={groupsByStatus['collaborator']} />
+{#if groupsByStatus['collaborator'] && groupsByStatus['collaborator'].length > 0}
+	<div class="lead mt-6">collaborators</div>
+	<PeopleList people={groupsByStatus['collaborator']} />
+{/if}

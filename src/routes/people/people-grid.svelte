@@ -18,7 +18,7 @@
 			<div class="italic">{hoveredPerson.position}, {hoveredPerson.org}</div>
 			<div class="text-sm">{hoveredPerson.interests}</div>
 		{:else}
-			<img src="images/logo/idl-290.png" alt="IDL logo" />
+			<img src="images/logo/brandeis.png" alt="Brandeis logo" />
 		{/if}
 	</div>
 	{#each people as person}
@@ -35,7 +35,7 @@
           {person.nickname}
         </div>
         <img
-          class="rounded-lg opacity-70 hover:opacity-95"
+          class="custom-image-size rounded-lg opacity-70 hover:opacity-95"
           src={person.image}
           alt={`headshot of ${displayName(person)}`}
         />

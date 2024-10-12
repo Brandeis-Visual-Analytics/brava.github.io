@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 a:hover {
-    color: #8a5ed3;
+    color: #14447c;
 }
 
 .social:hover path {
-    fill: #8a5ed3;
+    fill: #14447c;
 }
 
 .halo:hover {
-    box-shadow: 2px 2px 18px #8a5ed3;
+    box-shadow: 2px 2px 18px #14447c;
 }
 
 strong, b {
@@ -33,7 +33,7 @@ strong, b {
 }
 
 .text-uw {
-    color: #652c90;
+    color: #003478;
 }
 
 p {
@@ -76,3 +76,4 @@ div.lead {
     margin-bottom: 0.5em;
     margin-top: 1em;
 }
+
