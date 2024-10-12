@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>UW Interactive Data Lab | About</title>
+	<title>Brandeis Visual Analytics Lab | About</title>
 </svelte:head>
 
 <Markdown {content} />

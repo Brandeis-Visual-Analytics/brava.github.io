@@ -30,7 +30,7 @@
 </script>
 
 <svelte:head>
-	<title>UW Interactive Data Lab | People</title>
+	<title>Brandeis Visual Analytics Lab | People</title>
 	<!-- preload people images -->
 	{#each members as person}
 		<link rel="preload" as="image" href={person.image} />

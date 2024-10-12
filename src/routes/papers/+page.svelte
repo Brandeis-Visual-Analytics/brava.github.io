@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-	<title>UW Interactive Data Lab | Papers</title>
+	<title>Brandeis Visual Analytics Lab | Papers</title>
 </svelte:head>
 
 <div class="md:pr-10">
