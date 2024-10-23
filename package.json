@@ -8,12 +8,10 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "npm run integrity-enforcement && vite build && cp 404.html build/404.html",
-		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"prepare": "husky",
 		"test": "npm run check && npm run integrity-enforcement && vitest run",
 		"test:watch": "vitest",
 		"integrity-enforcement": "vite-node scripts/integrity-enforcement.ts "
@@ -35,7 +33,6 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.40.0",
-		"husky": "^9.0.11",
 		"postcss": "^8.4.38",
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.5",
