@@ -15,7 +15,7 @@
 			href: `${base}/people`
 		},
 		{
-			name: 'projects',
+			name: 'papers',
 			href: `${base}/papers`
 		},
 		{

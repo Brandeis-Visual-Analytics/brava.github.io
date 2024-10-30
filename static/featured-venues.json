@@ -1,3 +1,8 @@
 [
-
+    {
+        "desc": "arXiv",
+        "venue_nickname": "arXiv",
+        "year": 2024,
+        "visible": true
+      }
 ]

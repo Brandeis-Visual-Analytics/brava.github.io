@@ -1,45 +1,42 @@
 {
-    "title": "'They Aren't Built For Me': A Replication Study of Visual Graphical Perception with Tactile Representations of Data for Visually Impaired Users ",
-    "year": 2024,
-    "start_page": null,
-    "end_page": null,
-    "volume": null,
-    "issue": null,
-    "editors": "",
-    "publisher": "",
-    "location": "",
-    "pdf": "https://arxiv.org/pdf/2410.08438",
-    "abstract": "New tactile interfaces such as swell form printing or refreshable tactile displays promise to allow visually impaired people to analyze data. However, it is possible that design guidelines and familiar encodings derived from experiments on the visual perception system may not be optimal for the tactile perception system. We replicate the Cleveland and McGill study on graphical perception using swell form printing with eleven visually impaired subjects. We find that the visually impaired subjects read charts quicker and with similar and sometimes superior accuracy than in those replications. Based on a group interview with a subset of participants, we describe the strategies used by our subjects to read four chart types. While our results suggest that familiar encodings based on visual perception studies can be useful in tactile graphics, our subjects also expressed a desire to use encodings designed explicitly for visually impaired people",
-    "thumbnail": "images/thumbs/areen-2024.png",
-    "figure": "images/thumbs/areen-2024.png",
-    "caption": "",
-    "web_name": "",
-    "visible": true,
-    "mod_date": "2024-10-17",
-    "note": null,
-    "pub_date": "2024-10-17",
-    "venue": "arXiv",
-    "authors": [
-      {
-        "first_name": "Areen",
-        "last_name": "Khalaila",
-        "url": "www.areenkh.com"
-      },
-      {
-        "first_name": "Lane",
-        "last_name": "Harrison"
-      },
-      {
-        "first_name": "Nam Wook",
-        "last_name": "Kim"
-      },
-      {
-        "first_name": "Dylan",
-        "last_name": "Cashman",
-        "url": "https://dylancashman.github.io"
-      }
-    ],
-    "materials": [],
-    "tags": [],
-    "doi": "10.48550/arXiv.2410.08438"
-  }
+  "title": "'They Aren't Built For Me': A Replication Study of Visual Graphical Perception with Tactile Representations of Data for Visually Impaired Users ",
+  "year": 2024,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2410.08438",
+  "abstract": "New tactile interfaces such as swell form printing or refreshable tactile displays promise to allow visually impaired people to analyze data. However, it is possible that design guidelines and familiar encodings derived from experiments on the visual perception system may not be optimal for the tactile perception system. We replicate the Cleveland and McGill study on graphical perception using swell form printing with eleven visually impaired subjects. We find that the visually impaired subjects read charts quicker and with similar and sometimes superior accuracy than in those replications. Based on a group interview with a subset of participants, we describe the strategies used by our subjects to read four chart types. While our results suggest that familiar encodings based on visual perception studies can be useful in tactile graphics, our subjects also expressed a desire to use encodings designed explicitly for visually impaired people",
+  "thumbnail": "images/thumbs/areen-2024.png",
+  "figure": "images/thumbs/areen-2024.png",
+  "caption": "",
+  "web_name": "",
+  "visible": true,
+  "mod_date": "2024-10-17",
+  "note": "",
+  "pub_date": "2024-10-17",
+  "venue": "arXiv",
+  "authors": [
+    {
+      "first_name": "Areen",
+      "last_name": "Khalaila",
+      "url": "https://www.areenkh.com"
+    },
+    {
+      "first_name": "Nam Wook",
+      "last_name": "Kim",
+      "url": "http://namwkim.org/"
+    },
+    {
+      "first_name": "Dylan",
+      "last_name": "Cashman",
+      "url": "https://dylancashman.github.io"
+    }
+  ],
+  "materials": [],
+  "tags": [],
+  "doi": "10.48550/arXiv.2410.08438"
+}
