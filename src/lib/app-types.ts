@@ -81,5 +81,5 @@ export type Venue = {
 	fullName: string;
 	nickname: string;
 	// venueType: 'C' | 'J' | 'B' | 'W';
-	venueType: 'conference' | 'journal' | 'book' | 'workshop';
+	venueType: 'conference' | 'journal' | 'book' | 'workshop' | 'online archive';
 };
