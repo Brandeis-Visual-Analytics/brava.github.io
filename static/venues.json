@@ -3,5 +3,10 @@
         "fullName": "arXiv",
         "nickname": "arXiv",
         "venueType": "online archive"
+    },
+    {
+        "fullName": "IEEE Trans. Visualization & Comp. Graphics (Proc. VIS)",
+        "nickname": "VIS",
+        "venueType": "journal"
     }
 ]

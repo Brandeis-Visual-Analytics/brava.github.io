@@ -4,5 +4,11 @@
         "venue_nickname": "arXiv",
         "year": 2024,
         "visible": true
-      }
+    },
+    {
+      "desc": "VIS 2021 - Virtual Conference",
+      "venue_nickname": "VIS",
+      "year": 2021,
+      "visible": true
+    }
 ]

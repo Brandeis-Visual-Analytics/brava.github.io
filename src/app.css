@@ -77,3 +77,8 @@ div.lead {
     margin-top: 1em;
 }
 
+.custom-image-size{
+    height: 180px;
+    width: 120px;
+}
+

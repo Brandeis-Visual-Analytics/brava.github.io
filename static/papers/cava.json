@@ -1,0 +1,74 @@
+{
+  "title": "CAVA: A Visual Analytics System for Exploratory Columnar Data Augmentation Using Knowledge Graphs",
+  "year": 2021,
+  "start_page": 1731,
+  "end_page": 1741,
+  "volume": 27,
+  "issue": 2,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2009.02865",
+  "abstract": "Most visual analytics systems assume that all foraging for data happens before the analytics process; once analysis begins, the set of data attributes considered is fixed. Such separation of data construction from analysis precludes iteration that can enable foraging informed by the needs that arise in-situ during the analysis. The separation of the foraging loop from the data analysis tasks can limit the pace and scope of analysis. In this paper, we present CAVA, a system that integrates data curation and data augmentation with the traditional data exploration and analysis tasks, enabling information foraging in-situ during analysis. Identifying attributes to add to the dataset is difficult because it requires human knowledge to determine which available attributes will be helpful for the ensuing analytical tasks. CAVA crawls knowledge graphs to provide users with a a broad set of attributes drawn from external data to choose from. Users can then specify complex operations on knowledge graphs to construct additional attributes. CAVA shows how visual analytics can help users forage for attributes by letting users visually explore the set of available data, and by serving as an interface for query construction. It also provides visualizations of the knowledge graph itself to help users understand complex joins such as multi-hop aggregations. We assess the ability of our system to enable users to perform complex data combinations without programming in a user study over two datasets. We then demonstrate the generalizability of CAVA through two additional usage scenarios. The results of the evaluation confirm that CAVA is effective in helping the user perform data foraging that leads to improved analysis outcomes, and offer evidence in support of integrating data augmentation as a part of the visual analytics pipeline.",
+  "thumbnail": "images/thumbs/cava.png",
+  "figure": "images/thumbs/cava.png",
+  "caption": "",
+  "web_name": "cava",
+  "visible": true,
+  "mod_date": "2021-02-01",
+  "note": "",
+  "pub_date": "2021-02-01",
+  "venue": "VIS",
+  "authors": [
+    {
+      "first_name": "Dylan",
+      "last_name": "Cashman",
+      "url": "https://dylancashman.github.io"
+    },
+    {
+      "first_name": "Subhajit",
+      "last_name": "Das",
+      "url": "https://subhdas.github.io"
+    },
+    {
+      "first_name": "Florian",
+      "last_name": "Heimerl",
+      "url": "https://www.cs.wisc.edu/staff/heimerl-florian/"
+    },
+    {
+      "first_name": "Cong",
+      "last_name": "Liu"
+    },
+    {
+      "first_name": "Shah Rukh",
+      "last_name": "Humayoun",
+      "url": "https://www.eecs.tufts.edu/~humayoun/"
+    },
+    {
+      "first_name": "Michael Gleicher",
+      "last_name": "Humayoun"
+    },
+    {
+      "first_name": "Alex Endert",
+      "last_name": "Humayoun"
+    },
+    {
+      "first_name": "Remco Change",
+      "last_name": "Humayoun"
+    }
+  ],
+  "materials": [],
+  "tags": [
+    "Task analysis",
+    "Visual analytics",
+    "Machine learning",
+    "Data models",
+    "Data visualization",
+    "Google",
+    "Training",
+    "Visual Analytics",
+    "Information Foraging",
+    "Data Augmentation"
+  ],
+  "doi": "10.1109/TVCG.2020.3030443"
+}
