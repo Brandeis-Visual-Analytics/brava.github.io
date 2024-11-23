@@ -45,16 +45,19 @@
       "url": "https://www.eecs.tufts.edu/~humayoun/"
     },
     {
-      "first_name": "Michael Gleicher",
-      "last_name": "Humayoun"
+      "first_name": "Michael",
+      "last_name": "Gleicher",
+      "url": "https://gleicher.sites.cs.wisc.edu"
     },
     {
-      "first_name": "Alex Endert",
-      "last_name": "Humayoun"
+      "first_name": "Alex",
+      "last_name": "Endert",
+      "url": "https://va.gatech.edu/endert/"
     },
     {
-      "first_name": "Remco Change",
-      "last_name": "Humayoun"
+      "first_name": "Remco",
+      "last_name": "Chang",
+      "url": "https://www.cs.tufts.edu/~remco/"
     }
   ],
   "materials": [],
