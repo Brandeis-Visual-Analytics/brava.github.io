@@ -1,4 +1,4 @@
-# Brandeis Visual Analytics
+# Brandeis Visual Analytics Lab Website
 
 This repository contains the source code and supporting files for the IDL website.
 
