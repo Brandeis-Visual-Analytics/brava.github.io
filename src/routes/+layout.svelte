@@ -88,5 +88,14 @@
 		<div class="md:pt-2">
 			<slot />
 		</div>
+
+		<!-- FOOTER SECTION START -->
+		<footer class="w-full text-center mt-10 py-4 border-t border-gray-300 text-sm text-gray-600">
+			<p>
+				Website forked from <a href="https://idl.cs.washington.edu/" target="_blank" class="text-blue-500 hover:underline">UW Interactive Data Lab</a>.
+			</p>
+		</footer>
+		<!-- FOOTER SECTION END -->
+
 	</div>
 </div>
