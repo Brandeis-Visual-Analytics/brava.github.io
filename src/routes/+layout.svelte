@@ -75,7 +75,7 @@
 	<div class="flex flex-col w-full md:pl-24">
 		<header class="flex flex-row justify-between mb-3">
 			<div class="text-2xl md:text-3xl mt-1">
-				<span class="font-medium text-uw">Brandeis</span> Visual Analytics Lab
+				<span class="font-medium text-brandeis">Brandeis</span> Visual Analytics Lab
 				<span class="hidden md:inline ml-3 uppercase text-xl tracking-wider text-gray-500">{subtitle}</span>
 			</div>
 			<div class="md:hidden w-9">
