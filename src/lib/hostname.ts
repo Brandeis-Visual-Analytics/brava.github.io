@@ -1,1 +1,1 @@
-export const hostname = 'https://idl.uw.edu';
+export const hostname = 'https://brava.github.io';

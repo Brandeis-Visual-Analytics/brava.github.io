@@ -1,8 +1,8 @@
 {
-	"name": "uwdata.github.io",
-	"description": "Visual Analytics Lab Website",
-	"homepage": "http://idl.uw.edu/",
-	"version": "2.0.0",
+	"name": "brava.github.io",
+	"description": "Brandeis Visual Analytics Lab Website",
+	"homepage": "http://brava.github.io/",
+	"version": "0.0.1",
 	"private": true,
 	"license": "UNLICENSED",
 	"scripts": {

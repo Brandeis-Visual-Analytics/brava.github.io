@@ -1,0 +1,57 @@
+{
+  "title": "A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains",
+  "year": 2025,
+  "start_page": 1,
+  "end_page": 20,
+  "volume": 1,
+  "issue": 1,
+  "editors": "",
+  "publisher": "",
+  "location": "",
+  "pdf": "https://arxiv.org/pdf/2503.08836",
+  "abstract": "Dimensionality reduction is used as an important tool for unraveling the complexities of high-dimensional datasets in many fields of science, such as cell biology, chemical informatics, and physics. Visualizations of the dimensionally reduced data enable scientists to delve into the intrinsic structures of their datasets and align them with established hypotheses. Visualization researchers have thus proposed many dimensionality reduction methods and interactive systems designed to uncover latent structures.  At the same time, different scientific domains have formulated guidelines or common workflows for using dimensionality reduction techniques and visualizations for their respective fields. In this work, we present a critical analysis of the usage of dimensionality reduction in scientific domains outside of computer science.  First, we conduct a bibliometric analysis of 21,249 academic publications that use dimensionality reduction to observe differences in the frequency of techniques across fields.  Next, we conduct a survey of a 71-paper sample from four fields: biology, chemistry, physics, and business.  Through this survey, we uncover common workflows, processes, and usage patterns, including the mixed use of confirmatory data analysis to validate a dataset and projection method and exploratory data analysis to then generate more hypotheses.  We also find that misinterpretations and inappropriate usage is common, particularly in the visual interpretation of the resulting dimensionally reduced view.  Lastly, we compare our observations with recent works in the visualization community in order to match work within our community to potential areas of impact outside our community.  By comparing the usage found within scientific fields to the recent research output of the visualization community, we offer both validation of the progress of visualization research into dimensionality reduction and a call for action to produce techniques that meet the needs of scientific users.",
+  "thumbnail": "images/thumbs/dimred-survey.png",
+  "figure": "images/figures/dimred-survey.png",
+  "caption": "",
+  "web_name": "dimred-survey",
+  "visible": true,
+  "mod_date": "2025-07-01",
+  "note": "",
+  "pub_date": "2025-07-01",
+  "venue": "TVCG",
+  "authors": [
+    {
+      "first_name": "Dylan",
+      "last_name": "Cashman",
+      "url": "https://dylancashman.github.io"
+    },
+    {
+      "first_name": "Mark",
+      "last_name": "Keller",
+      "url": "https://markk.co/"
+    },
+    {
+      "first_name": "Hyeon",
+      "last_name": "Jeon",
+      "url": "https://www.hyeonjeon.com/"
+    },
+    {
+      "first_name": "Bum Chul",
+      "last_name": "Kwon",
+      "url": "https://www.bckwon.com/"
+    },
+    {
+      "first_name": "Qianwen",
+      "last_name": "Wang",
+      "url": "https://qianwen.info/"
+    }
+  ],
+  "materials": [],
+  "tags": [
+    "Dimensionality Reduction",
+    "Survey",
+    "Machine learning",
+    "Domain Research"
+  ],
+  "doi": "10.1109/TVCG.2025.3567989"
+}
