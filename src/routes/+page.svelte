@@ -32,7 +32,7 @@
 
 <div class="mission md:text-xl md:-mt-1 mb-4">
 	<div class="flex flex-row gap-x-10">
-		<div class="w-3/5">
+		<div class="w-full lg:w-3/5">
 			<p>
 				The BraVA lab, led by Dylan Cashman, Assistant Professor of Computer Science at Brandeis University, conducts research into methods of data visualization, data science, and human computer interaction.
 			</p>
@@ -40,7 +40,7 @@
 				In our lab, we seek to <strong>empower all users</strong> to make the most of their data as <em>easily</em> as possible.
 			</p>
 		</div>
-		<div class="w-2/5 flex justify-end">
+		<div class="w-2/5 hidden lg:flex justify-end">
 			<img class="w-3/4 h-auto" src={`${base}/images/people/Dylan_Cashman_brandeis_classroom_pic.jpg`} />
 		</div>
 	</div>
