@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.81 103.44">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        font-family: BaiJamjuree-Medium, 'Bai Jamjuree';
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        fill: gray;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2, .cls-5 {
+        font-size: 72px;
+      }
+
+      .cls-4 {
+        fill: #29abe2;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g class="cls-3">
+    <text class="cls-5" transform="translate(7.89 65.74)"><tspan x="0" y="0">B</tspan></text>
+    <text class="cls-1" transform="translate(51.02 65.74)"><tspan x="0" y="0">r</tspan></text>
+    <text class="cls-1" transform="translate(73.64 65.74)"><tspan x="0" y="0">a</tspan></text>
+  </g>
+  <g class="cls-3">
+    <text class="cls-2" transform="translate(102.41 66.58)"><tspan x="0" y="0">V</tspan></text>
+    <text class="cls-5" transform="translate(141.87 66.58)"><tspan x="0" y="0">A</tspan></text>
+  </g>
+  <path class="cls-6" d="M190.83,75.82h0V1c0-.55.45-1,1-1h7.98c.55,0,1,.45,1,1v64.84c0,5.51-4.47,9.98-9.98,9.98Z"/>
+  <path class="cls-6" d="M9.98,7.51h0v75.4c0,.55-.45,1-1,1H1c-.55,0-1-.45-1-1V17.49C0,11.98,4.47,7.51,9.98,7.51Z"/>
+  <rect class="cls-4" x="9.98" width="190.83" height="7.51"/>
+  <rect class="cls-4" y="75.82" width="190.83" height="8.1"/>
+</svg>

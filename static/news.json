@@ -1,7 +1,17 @@
 [
+	{
+		"text": "Dylan organized a panel at VIS 2023 in Melbourne, VIC titled [*How should VIS4ML Redefine Itself in the Rapid Evolution of AI?*](https://vis4ml.github.io/vispanel/#home)",
+		"date": "2023-10-26",
+		"visible": true
+	},
     {
 		"text": "Two new posters at [VIS 2024](https://ieeevis.org/year/2024/welcome).",
 		"date": "2024-10-12",
+		"visible": true
+	},
+    {
+		"text": "Two papers will be presented at [VIS 2025 in Vienna](https://ieeevis.org/year/2024/welcome).",
+		"date": "2025-08-01",
 		"visible": true
 	}
 ]

@@ -5,8 +5,8 @@ Our research, led by **Professor Dylan Cashman**, focuses on enhancing the inter
 ## Background
 
 <!-- <img class="right" src="" /> -->
-**Professor Dylan Cashman** earned his PhD in Computer Science from **Tufts University** and has a background in data science from **Novartis**. He now leads the Visual Analytics Lab at Brandeis University, working at the intersection of **human-computer interaction**, **machine learning**, and **data visualization**. His research has earned recognition, including **Best Paper Awards** at international conferences such as IEEE VIS.
+**Professor Dylan Cashman** earned his PhD in Computer Science from **Tufts University** and has a background in data science from **Novartis**. He now leads the Visual Analytics Lab at Brandeis University, working at the intersection of **human-computer interaction**, **machine learning**, and **data visualization**. His research has earned recognition, including **Best Paper Awards** at international conferences such as IEEE VIS and Eurovis.
 
 Our ongoing work involves creating innovative tools for **visual data analysis**, fostering collaboration with academic and industry partners, and exploring the role of human insight in applied machine learning systems.
 
-Our team is made up of a few masters and undergraduate students. If you are interested in working with professor Dylan Cashman on project, reach out to him via email. 
+Our team is fairly small and composed of both undergraduate and graduate students. If you are interested in working with professor Dylan Cashman on project, reach out to him via email.  Please include a CV and explain what got you interested in research and what your goals are in conducting research with our lab.  We like to work with students who are passionate about what they choose to work on.  We all thrive in a culture of mutual respect.

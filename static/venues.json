@@ -8,5 +8,10 @@
         "fullName": "IEEE Trans. Visualization & Comp. Graphics (Proc. VIS)",
         "nickname": "VIS",
         "venueType": "journal"
+    },
+    {
+        "fullName": "Empirical Methods in Natural Language Processing",
+        "nickname": "EMNLP",
+        "venueType": "conference"
     }
 ]

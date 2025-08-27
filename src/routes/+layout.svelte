@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
 	import '../fonts.css';
-	import Logo from '$lib/logo.svelte';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 
@@ -33,12 +32,12 @@
 	]
 
 	$: pageName =
-		$page.url.pathname.split('/').filter((x) => x && x !== 'Brandeis-Visual-Analytics.github.io')[0] ||
+		$page.url.pathname.split('/').filter((x) => x && x !== 'brava.github.io')[0] ||
 		'home';
-	$: subtitle = pageName === 'home' ? 'Visualization + Analysis' : pageName;
+	$: subtitle = pageName === 'home' ? 'Visualization Research' : pageName;
 </script>
 
-<div class="w-full md:max-w-4xl m-0 font-sans px-4 py-3 overflow-x-clip">
+<div class="w-full md:max-w-full m-0 font-sans px-4 py-3 overflow-x-clip">
 	<nav class="md:hidden flex justify-between mb-2 text-xs tracking-wider uppercase">
 		{#each mobile as section}
 			{#if pageName === section.name}
@@ -51,16 +50,26 @@
 
 	<div class="hidden md:flex flex-col justify-between fixed top-0 h-screen">
 		<nav class="flex flex-col mb-4">
-			<div class="mb-0.5"><Logo /></div>
+			<div class="mb-2">
+				<a
+				class="block mt-3 w-32"
+				href={`${base}/`}
+				title="BraVA lab logo"
+				><img
+					class="rounded halo w-full"
+					src={`${base}/images/logo/brava-logo.png`}
+					alt="BraVA lab logo"
+				/></a>
+			</div>
 			{#each sections as section}
-				<a class="uppercase font-medium text-2xs tracking-extra mb-1.5" href={section.href}
+				<a class="uppercase font-medium text-xl tracking-extra mb-1.5" href={section.href}
 					>{section.name}</a
 				>
 			{/each}
 		</nav>
 		<div class="mb-4">
 			<a
-				class="block w-11 mt-3"
+				class="block w-32 mt-3"
 				href="https://www.brandeis.edu/computer-science/"
 				title="Michtom School of Computer Science"
 				><img
@@ -72,11 +81,10 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col w-full md:pl-24">
+	<div class="flex flex-col w-full md:pl-40">
 		<header class="flex flex-row justify-between mb-3">
 			<div class="text-2xl md:text-3xl mt-1">
 				<span class="font-medium text-brandeis">Brandeis</span> Visual Analytics Lab
-				<span class="hidden md:inline ml-3 uppercase text-xl tracking-wider text-gray-500">{subtitle}</span>
 			</div>
 			<div class="md:hidden w-9">
 				<img

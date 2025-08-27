@@ -1,14 +1,14 @@
 [
     {
-        "desc": "arXiv",
-        "venue_nickname": "arXiv",
+        "desc": "EMNLP",
+        "venue_nickname": "EMNLP",
         "year": 2024,
         "visible": true
     },
     {
-      "desc": "VIS 2021 - Virtual Conference",
+      "desc": "VIS",
       "venue_nickname": "VIS",
-      "year": 2021,
+      "year": null,
       "visible": true
     }
 ]

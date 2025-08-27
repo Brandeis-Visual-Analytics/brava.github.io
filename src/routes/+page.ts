@@ -8,17 +8,25 @@ export const load: PageLoad = async ({ fetch }) => {
 		.then((response) => response.json() as Promise<Course[]>)
 		.catch(() => error(404, 'Courses not found'));
 
+	// console.log("courses is ", courses)
+
 	const venues = await fetch(`${base}/venues.json`)
 		.then((response) => response.json() as Promise<Venue[]>)
 		.catch(() => error(404, 'Index: Venues Index Not found'));
+
+	// console.log("venues is ", venues)
+
 	const papers = await fetch(`${base}/papers-index.json`)
 		.then((x) => x.json() as Promise<Paper[]>)
-		.then((x) =>
-			x.map((paper) => {
+		.then((x) => 
+			x.sort((a, b) => b.year - a.year)
+			 .map((paper) => {
 				const venue = venues.find((x) => x.nickname === paper.venue)!;
 				return { venue, paper };
 			})
 		);
+
+	// console.log("papers is ", papers)
 
 	const groupedPapers = await fetch(`${base}/featured-venues.json`)
 		.then((response) => response.json() as Promise<FeaturedVenue[]>)
@@ -30,7 +38,7 @@ export const load: PageLoad = async ({ fetch }) => {
 					const featureYear = Number(x.year);
 					const featureVenue = x.venue_nickname;
 					const filteredPapers = papers.filter(({ paper, venue }) => {
-						return venue.nickname === featureVenue && paper.year === featureYear;
+						return venue.nickname === featureVenue;
 					});
 					if (filteredPapers.length === 0) {
 						console.error(x.desc, 'has no papers');
@@ -41,17 +49,25 @@ export const load: PageLoad = async ({ fetch }) => {
 					};
 				})
 		)
-		.catch((e) => error(500, e));
+		.catch((e) => error(500, "GOT AN ERROR, " + String(e)));
+
+	// console.log("groupedPapers is ", groupedPapers)
+
 
 	const news = await fetch(`${base}/news.json`)
 		.then((response) => response.json() as Promise<Paper[]>)
 		.then((x) => x.filter((x) => x.visible).reverse())
 		.catch(() => error(404, 'News not found'));
 
+	// console.log("news is ", news)
+
 	const spotlight = await fetch(`${base}/spotlight.json`)
 		.then((response) => response.json() as Promise<Spotlight[]>)
 		.then((x) => x.filter((x) => x.visible))
 		.catch(() => error(404, 'Spotlight not found'));
+
+	// console.log("spotlight is ", spotlight)
+
 
 	return { groupedPapers, news, spotlight, courses };
 };

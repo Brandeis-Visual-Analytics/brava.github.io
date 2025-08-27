@@ -13,12 +13,12 @@
   "thumbnail": "images/thumbs/dimred-survey.png",
   "figure": "images/figures/dimred-survey.png",
   "caption": "",
-  "web_name": "dimred-survey",
+  "web_name": "dr-survey",
   "visible": true,
   "mod_date": "2025-07-01",
   "note": "",
   "pub_date": "2025-07-01",
-  "venue": "TVCG",
+  "venue": "VIS",
   "authors": [
     {
       "first_name": "Dylan",
@@ -46,7 +46,16 @@
       "url": "https://qianwen.info/"
     }
   ],
-  "materials": [],
+  "materials": [
+    {
+      "name": "Paper Browser",
+      "link": "https://dimension-reduction-vis.github.io/"
+    },
+    {
+      "name": "Appendix",
+      "link": "https://ieeexplore.ieee.org/ielx8/2945/4359476/10992274/supp1-3567989.pdf?arnumber=10992274"
+    }
+  ],
   "tags": [
     "Dimensionality Reduction",
     "Survey",

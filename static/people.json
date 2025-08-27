@@ -27,6 +27,20 @@
         "interests": "HCI, Visualization, Accessibility",
         "org": "Computer Science"
     },
+    {
+        "first_name": "Thomas",
+        "last_name": "Breimer",
+        "display_name": null,
+        "email": null,
+        "url": null,
+        "status": "member",
+        "visible": true,
+        "image": null,
+        "nickname": "Tom",
+        "position": "PhD Student",
+        "interests": "Visualization, Systems",
+        "org": "Brandeis University"
+    },
 	{
 		"first_name": "Jonghyeon",
 		"last_name": "Lee",
@@ -81,6 +95,34 @@
 		"nickname": "Vedanshi",
 		"position": "Master's Student",
 		"interests": "Visualization for Communication, Machine Learning, and Natural Language Processing, Systems and Robotics",
+		"org": "Brandeis University"
+	},
+	{
+		"first_name": "Sonny",
+		"last_name": "George",
+		"display_name": "Sonny George",
+		"email": "",
+		"url": "",
+		"status": "alumni",
+		"visible": true,
+		"image": "images/people/sonny.jpg",
+		"nickname": "Sonny",
+		"position": "Master's Student",
+		"interests": "Artificial Intelligence",
+		"org": null
+	},
+	{
+		"first_name": "Chris",
+		"last_name": "Sypherd",
+		"display_name": "Chris Sypherd",
+		"email": "",
+		"url": "",
+		"status": "collaborator",
+		"visible": false,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
 		"org": null
 	},
 	{

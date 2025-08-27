@@ -31,17 +31,25 @@
 </svelte:head>
 
 <div class="mission md:text-xl md:-mt-1 mb-4">
-	<a href={`${base}/about`}>
-		<span class="lead">our mission</span> is to advance human 
-		<strong>understanding and interaction</strong>
-		with complex data through innovative visual analytics systems and human-centered design.
-	</a>
+	<div class="flex flex-row gap-x-10">
+		<div class="w-3/5">
+			<p>
+				The BraVA lab, led by Dylan Cashman, Assistant Professor of Computer Science at Brandeis University, conducts research into methods of data visualization, data science, and human computer interaction.
+			</p>
+			<p>
+				In our lab, we seek to <strong>empower all users</strong> to make the most of their data as <em>easily</em> as possible.
+			</p>
+		</div>
+		<div class="w-2/5 flex justify-end">
+			<img class="w-3/4 h-auto" src={`${base}/images/people/Dylan_Cashman_brandeis_classroom_pic.jpg`} />
+		</div>
+	</div>
 </div>
 
-<div class="hidden md:block">
+<!-- <div class="hidden md:block">
 	<Carousel projects={data.spotlight} />
 </div>
-
+ -->
 <div class="mt-6 md:flex">
 	<div class="flex flex-col pr-10 basis-9/12 pt-3 border-t md:pt-0 md:border-t-0">
 		<div class="lead">

@@ -1,0 +1,57 @@
+{
+  "title": "Are metrics enough? Guidelines for communicating and visualizing predictive models to subject matter experts",
+  "year": 2023,
+  "start_page": 4137,
+  "end_page": 4153,
+  "volume": 30,
+  "issue": 7,
+  "editors": "",
+  "publisher": "IEEE",
+  "location": "Melbourne, VIC",
+  "pdf": "https://arxiv.org/pdf/2205.05749",
+  "abstract": "Presenting a predictive model’s performance is a communication bottleneck that threatens collaborations between data scientists and subject matter experts. Accuracy and error metrics alone fail to tell the whole story of a model – its risks, strengths, and limitations – making it difficult for subject matter experts to feel confident in their decision to use a model. As a result, models may fail in unexpected ways or go entirely unused, as subject matter experts disregard poorly presented models in favor of familiar, yet arguably substandard methods. In this paper, we describe an iterative study conducted with both subject matter experts and data scientists to understand the gaps in communication between these two groups. We find that, while the two groups share common goals of understanding the data and predictions of the model, friction can stem from unfamiliar terms, metrics, and visualizations – limiting the transfer of knowledge to SMEs and discouraging clarifying questions being asked during presentations. Based on our findings, we derive a set of communication guidelines that use visualization as a common medium for communicating the strengths and weaknesses of a model. We provide a demonstration of our guidelines in a regression modeling scenario and elicit feedback on their use from subject matter experts. From our demonstration, subject matter experts were more comfortable discussing a model’s performance, more aware of the trade-offs for the presented model, and better equipped to assess the model’s risks – ultimately informing and contextualizing the model’s use beyond text and numbers.",
+  "thumbnail": "images/thumbs/viscomm-metrics.png",
+  "figure": "images/thumbs/viscomm-metrics.png",
+  "caption": "",
+  "web_name": "viscomm-metrics",
+  "visible": true,
+  "mod_date": "2025-08-22",
+  "note": "",
+  "pub_date": "2025-08-22",
+  "venue": "VIS",
+  "authors": [
+    {
+      "first_name": "Ashley",
+      "last_name": "Suh"
+    },
+    {
+      "first_name": "Gabriel",
+      "last_name": "Appleby"
+    },
+    {
+      "first_name": "Erik W",
+      "last_name": "Anderson"
+    },
+    {
+      "first_name": "Luca",
+      "last_name": "Finelli"
+    },
+    {
+      "first_name": "Remco",
+      "last_name": "Chang",
+      "url": "https://www.cs.tufts.edu/~remco/"
+    },
+    {
+      "first_name": "Dylan",
+      "last_name": "Cashman",
+      "url": "https://dylancashman.github.io"
+    }
+  ],
+  "materials": [],
+  "tags": [
+    "Decision Making",
+    "Visualizations for Communications",
+    "Data Science"
+  ],
+  "doi": "10.1109/TVCG.2023.3259341"
+}
