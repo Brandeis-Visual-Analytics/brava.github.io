@@ -13,5 +13,15 @@
 		"name": "COSI 104A — Introduction to Machine Learning",
 		"level": "Undergraduate",
 		"link": ""
+	},
+    {
+		"name": "COSI 165B — Deep Learning",
+		"level": "Undergraduate",
+		"link": ""
+	},
+    {
+		"name": "COSI 212B — Interactive Machine Learning Systems",
+		"level": "Graduate",
+		"link": ""
 	}
 ]

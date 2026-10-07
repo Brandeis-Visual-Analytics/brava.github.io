@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Person } from '$lib/app-types';
-	import { displayName } from '$lib/display-name';
+	import { displayName, DEFAULT_IMAGE } from '$lib/display-name';
 	import PeopleGrid from './people-grid.svelte';
 	import PeopleList from './people-list.svelte';
 	export let data: { people: Person[] };
@@ -33,7 +33,7 @@
 	<title>Brandeis Visual Analytics Lab | People</title>
 	<!-- preload people images -->
 	{#each members as person}
-		<link rel="preload" as="image" href={person.image} />
+		<link rel="preload" as="image" href={person.image ?? DEFAULT_IMAGE} />
 	{/each}
 </svelte:head>
 
@@ -47,7 +47,7 @@
 		<div class="mt-2 w-full flex">
 			<a class="block grow-0 shrink-0" href={person.url}>
 				<img
-					src={person.image}
+					src={person.image ?? DEFAULT_IMAGE}
 					alt={`head shot of ${displayName(person)}`}
 				/>
 			</a>

@@ -1,0 +1,57 @@
+{
+  "title": "A Scoping Review of Human–Computer Interaction Research on the Accessibility of Data Visualizations: New Technologies, Procedures, and Designs",
+  "year": 2026,
+  "start_page": null,
+  "end_page": null,
+  "volume": null,
+  "issue": null,
+  "editors": "",
+  "publisher": "ACM",
+  "location": "Vila Nova de Gaia, Portugal",
+  "pdf": "https://saadh.info/papers/hassan-assets26/hassan-assets26.pdf",
+  "abstract": "Data visualizations are vital for communication and decision-making, yet accessibility barriers limit their effectiveness for people with disabilities. While earlier literature reviews examined Human–Computer Interaction (HCI) research on visualization accessibility, there has not been an analysis that accounts for recent seismic shifts in software, hardware, design and experimental protocols due to Artificial Intelligence (AI), the COVID-19 pandemic, and greater general awareness of accessible technologies. To analyze the impacts of this shift on accessible visualization research, we reviewed 280 HCI publications and coded target communities, visualization types, interaction types, and methods, contrasting articles published before and after 2021. Our corpus identified a sharp increase in publications after 2021 along with an expansion to a broader range of target communities, including people with CVD, IDD, and ADHD. Empirical and artifact contributions still dominate, with studies after 2021 showing a higher proportion of empirical studies. Participatory approaches are increasing but still remain limited. Research mainly focuses on charts and web-based, text-driven interactions, with articles after 2021 indicating a growing interest in multimodal and AI-driven systems. We further dissect this recent surge, positioning it against earlier work to identify trends, limitations, and open questions to guide future research.",
+  "thumbnail": "images/thumbs/assets-scoping-review.png",
+  "figure": "images/thumbs/assets-scoping-review.png",
+  "caption": "Number of papers by interaction modality over time.",
+  "web_name": "assets-scoping-review",
+  "visible": true,
+  "mod_date": "2026-10-25",
+  "note": "",
+  "pub_date": "2026-10-25",
+  "venue": "ASSETS",
+  "authors": [
+    {
+      "first_name": "Saad",
+      "last_name": "Hassan"
+    },
+    {
+      "first_name": "Areen",
+      "last_name": "Khalaila"
+    },
+    {
+      "first_name": "Dylan",
+      "last_name": "Cashman",
+      "url": "https://dylancashman.github.io"
+    },
+    {
+      "first_name": "Ather",
+      "last_name": "Sharif"
+    },
+    {
+      "first_name": "Rebecca",
+      "last_name": "Faust"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Paper Corpus",
+      "link": "https://accessvizcorpus.pages.dev/"
+    }
+  ],
+  "tags": [
+    "Accessibility",
+    "Survey",
+    "Visualization"
+  ],
+  "doi": "10.1145/3797867.3829030"
+}

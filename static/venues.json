@@ -13,5 +13,15 @@
         "fullName": "Empirical Methods in Natural Language Processing",
         "nickname": "EMNLP",
         "venueType": "conference"
+    },
+    {
+        "fullName": "Association for Computational Linguistics",
+        "nickname": "ACL",
+        "venueType": "conference"
+    },
+    {
+        "fullName": "ACM SIGACCESS Conference on Computers and Accessibility",
+        "nickname": "ASSETS",
+        "venueType": "conference"
     }
 ]

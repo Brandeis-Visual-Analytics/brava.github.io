@@ -1,46 +1,46 @@
 [
 	{
-        "first_name": "Dylan",
-        "last_name": "Cashman",
-        "display_name": null,
-        "email": "dylancashman@brandeis.edu",
-        "url": "https://dylancashman.github.io",
-        "status": "faculty",
-        "visible": true,
-        "image": "images/people/dylan.png",
-        "nickname": "Dylan",
-        "position": "Professor",
-        "interests": "Visualization, HCI",
-        "org": "Computer Science"
-    },
-    {
-        "first_name": "Areen",
-        "last_name": "Khalaila",
-        "display_name": null,
-        "email": "areenkh@brandeis.edu",
-        "url": "https://www.areenkh.com",
-        "status": "alumni",
-        "visible": true,
-        "image": "images/people/areen.png",
-        "nickname": "Areen",
-        "position": "Undergraduate Student",
-        "interests": "HCI, Visualization, Accessibility",
-        "org": "Computer Science"
-    },
-    {
-        "first_name": "Thomas",
-        "last_name": "Breimer",
-        "display_name": null,
-        "email": null,
-        "url": null,
-        "status": "member",
-        "visible": true,
-        "image": null,
-        "nickname": "Tom",
-        "position": "PhD Student",
-        "interests": "Visualization, Systems",
-        "org": "Brandeis University"
-    },
+		"first_name": "Dylan",
+		"last_name": "Cashman",
+		"display_name": null,
+		"email": "dylancashman@brandeis.edu",
+		"url": "https://dylancashman.github.io",
+		"status": "faculty",
+		"visible": true,
+		"image": "images/people/dylan.png",
+		"nickname": "Dylan",
+		"position": "Professor",
+		"interests": "Visualization, HCI",
+		"org": "Computer Science"
+	},
+	{
+		"first_name": "Areen",
+		"last_name": "Khalaila",
+		"display_name": null,
+		"email": "areenkh@brandeis.edu",
+		"url": "https://www.areenkh.com",
+		"status": "member",
+		"visible": true,
+		"image": "images/people/areen.png",
+		"nickname": "Areen",
+		"position": "Affiliated Researcher",
+		"interests": "HCI, Visualization, Accessibility",
+		"org": "University of Illinois at Chicago"
+	},
+	{
+		"first_name": "Thomas",
+		"last_name": "Breimer",
+		"display_name": null,
+		"email": null,
+		"url": null,
+		"status": "member",
+		"visible": true,
+		"image": null,
+		"nickname": "Tom",
+		"position": "PhD Student",
+		"interests": "Visualization, Systems",
+		"org": "Brandeis University"
+	},
 	{
 		"first_name": "Jonghyeon",
 		"last_name": "Lee",
@@ -49,7 +49,7 @@
 		"url": "",
 		"status": "alumni",
 		"visible": true,
-		"image": "images/people/jonghyeon.jpeg", 
+		"image": "images/people/jonghyeon.jpeg",
 		"nickname": "Jonghyeon",
 		"position": "Undergraduate Student",
 		"interests": "Spatial Computing",
@@ -77,7 +77,7 @@
 		"url": "",
 		"status": "alumni",
 		"visible": true,
-		"image": "images/people/Ge_Gao.jpg", 
+		"image": "images/people/Ge_Gao.jpg",
 		"nickname": "Ge",
 		"position": "Master's Student & Research Assistant",
 		"interests": "Information Visualization/Mixed Reality",
@@ -89,7 +89,7 @@
 		"display_name": "Vedanshi Chetan Shah",
 		"email": "vedanshi@brandeis.edu",
 		"url": "https://vedanshishah7.github.io/vedanshi-shah/index.html",
-		"status": "member",
+		"status": "alumni",
 		"visible": true,
 		"image": "images/people/vedanshi.JPG",
 		"nickname": "Vedanshi",
@@ -154,7 +154,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Subhajit", 
+		"first_name": "Subhajit",
 		"last_name": "Das",
 		"display_name": null,
 		"email": "das.connect@outlook.com",
@@ -168,7 +168,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Florian", 
+		"first_name": "Florian",
 		"last_name": "Heimerl",
 		"display_name": null,
 		"email": "heimerl@cs.wisc.edu",
@@ -182,7 +182,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Cong",  
+		"first_name": "Cong",
 		"last_name": "Liu",
 		"display_name": null,
 		"email": "",
@@ -196,7 +196,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Shah Rukh",   
+		"first_name": "Shah Rukh",
 		"last_name": "Humayoun",
 		"display_name": null,
 		"email": "humayoun@sfsu.edu",
@@ -210,7 +210,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Michael",  
+		"first_name": "Michael",
 		"last_name": "Gleicher",
 		"display_name": null,
 		"email": "gleicher@cs.wisc.edu",
@@ -224,8 +224,8 @@
 		"org": null
 	},
 	{
-		"first_name": "Alex", 
-		"last_name": "Endert", 
+		"first_name": "Alex",
+		"last_name": "Endert",
 		"display_name": null,
 		"email": "endert@gatech.edu",
 		"url": "https://va.gatech.edu/endert/",
@@ -238,7 +238,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Remco",  
+		"first_name": "Remco",
 		"last_name": "Chang",
 		"display_name": null,
 		"email": "remco.chang@tufts.edu",
@@ -252,7 +252,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Mark",  
+		"first_name": "Mark",
 		"last_name": "Keller",
 		"display_name": null,
 		"email": "mark_keller@hms.harvard.edu",
@@ -266,7 +266,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Hyeon",  
+		"first_name": "Hyeon",
 		"last_name": "Jeon",
 		"display_name": null,
 		"email": "hj@hcil.snu.ac.kr",
@@ -280,7 +280,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Bum Chul",  
+		"first_name": "Bum Chul",
 		"last_name": "Kwon",
 		"display_name": null,
 		"email": "bumchul.kwon@us.ibm.com",
@@ -294,7 +294,7 @@
 		"org": null
 	},
 	{
-		"first_name": "Qianwen",  
+		"first_name": "Qianwen",
 		"last_name": "Wang",
 		"display_name": null,
 		"email": "qianwen@umn.edu",
@@ -306,5 +306,89 @@
 		"position": null,
 		"interests": null,
 		"org": null
+	},
+	{
+		"first_name": "James",
+		"last_name": "Petullo",
+		"display_name": null,
+		"email": "",
+		"url": "",
+		"status": "member",
+		"visible": true,
+		"image": null,
+		"nickname": "James",
+		"position": "PhD Student",
+		"interests": "",
+		"org": "Brandeis University"
+	},
+	{
+		"first_name": "Nianwen",
+		"last_name": "Xue",
+		"display_name": null,
+		"email": null,
+		"url": null,
+		"status": "collaborator",
+		"visible": false,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Saad",
+		"last_name": "Hassan",
+		"display_name": null,
+		"email": null,
+		"url": null,
+		"status": "collaborator",
+		"visible": false,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Ather",
+		"last_name": "Sharif",
+		"display_name": null,
+		"email": null,
+		"url": null,
+		"status": "collaborator",
+		"visible": false,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Rebecca",
+		"last_name": "Faust",
+		"display_name": null,
+		"email": null,
+		"url": null,
+		"status": "collaborator",
+		"visible": false,
+		"image": null,
+		"nickname": null,
+		"position": null,
+		"interests": null,
+		"org": null
+	},
+	{
+		"first_name": "Pirm",
+		"last_name": "Dhararag",
+		"display_name": null,
+		"email": "",
+		"url": "",
+		"status": "member",
+		"visible": true,
+		"image": null,
+		"nickname": "Pirm",
+		"position": "Undergraduate Student",
+		"interests": "",
+		"org": "Brandeis University"
 	}
 ]

@@ -2,6 +2,7 @@
 	import type { Person } from '$lib/app-types';
   import { displayName } from '$lib/display-name';
 	export let people: Person[];
+  import { DEFAULT_IMAGE } from '$lib/display-name';
 
   let hoveredPerson: Person | null = null;
 	function handleHover(person: Person | null) {
@@ -10,15 +11,15 @@
 </script>
 
 <div class="grid grid-cols-6 w-full">
-  <div class="row-start-2 col-start-1 col-end-3 p-1 pr-2">
+  <div class="row-start-2 col-start-1 col-end-3 p-1 pr-2 h-[180px] overflow-hidden flex flex-col justify-center">
 		{#if hoveredPerson}
-			<div class="text-xl font-semibold mt-6">
+			<div class="text-xl font-semibold">
 				{displayName(hoveredPerson)}
 			</div>
 			<div class="italic">{hoveredPerson.position}, {hoveredPerson.org}</div>
 			<div class="text-sm">{hoveredPerson.interests}</div>
 		{:else}
-			<img src="images/logo/brandeis.png" alt="Brandeis logo" />
+			<img class="max-h-full max-w-full object-contain object-left" src="images/logo/brandeis.png" alt="Brandeis logo" />
 		{/if}
 	</div>
 	{#each people as person}
@@ -36,7 +37,7 @@
         </div>
         <img
           class="custom-image-size rounded-lg opacity-70 hover:opacity-95"
-          src={person.image}
+          src={person.image ?? DEFAULT_IMAGE}
           alt={`headshot of ${displayName(person)}`}
         />
       </a>
